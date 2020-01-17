@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "962885537040",
+    "firebase_url": "https://quizgamefinalexam.firebaseio.com",
+    "project_id": "quizgamefinalexam",
+    "storage_bucket": "quizgamefinalexam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962885537040:android:65d2749dd0028eb5d1e995",
+        "android_client_info": {
+          "package_name": "com.example.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962885537040-6b4a0bhp7591jeg1as0q4dsqpbeknrar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quizgame",
+            "certificate_hash": "ee984612d7ed8f4456d72f28a2c733d057b992a5"
+          }
+        },
+        {
+          "client_id": "962885537040-mu87q4p4c48ba6iiam29kvrh0l8kc2k7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quizgame",
+            "certificate_hash": "e30e828b1af84b9664d6c8a34856f65820ea21db"
+          }
+        },
+        {
+          "client_id": "962885537040-ob8l1e3s55mejafq6n6f4qh3idamgooq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXHrq3w0TG_OSLuc-vB_U5Nol9UmnCxMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962885537040-ob8l1e3s55mejafq6n6f4qh3idamgooq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

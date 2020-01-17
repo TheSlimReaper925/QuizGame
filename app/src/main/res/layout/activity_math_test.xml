@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/scoreValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_horizontal"
+        android:text="@null"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/questionOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="თუ a &lt; 0 და b > 0, მაშინ |a - b|="
+                android:textColor="#EB0909"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp">
+
+                <RadioButton
+                    android:id="@+id/answerOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a + b" />
+
+                <RadioButton
+                    android:id="@+id/answerTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a - b" />
+
+                <RadioButton
+                    android:id="@+id/answerThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b - a" />
+
+                <RadioButton
+                    android:id="@+id/answerFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-a - b" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/questionTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="სამკუთხედის ორ წვეროსთან მდებარე გარე კუთხეები ტოლია 120 და 135-ის. იპოვეთ ამ სამკუთხედის მესამე წვეროსთან მდებარე შიდა კუთხის სიდიდე"
+                android:textColor="#F70303"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/qTwoAone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15" />
+
+                <RadioButton
+                    android:id="@+id/answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="45" />
+
+                <RadioButton
+                    android:id="@+id/answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="75" />
+
+                <RadioButton
+                    android:id="@+id/answer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="105" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/questionThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="რუკაზე, რომლის მასშტაბია 1 : 20000, მიწის ნაკვეთს შეესაბამება 1.6სმ^2 ფართობის მქონე მართკუთხედი. იპოვეთ ამ მიწის ფართობი."
+                android:textColor="#F70606"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupThree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/answer31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="32000 სმ^2" />
+
+                <RadioButton
+                    android:id="@+id/answer32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3200 სმ^2" />
+
+                <RadioButton
+                    android:id="@+id/answer33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6400 სმ^2" />
+
+                <RadioButton
+                    android:id="@+id/answer34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="64000 სმ^2" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/questionFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ქვემოთ ჩამოთვლილი რიცხვებიდან რომლის ტოლი შეიძლება იყოს 1-ზე მეტი მთელი a რიცხვის 5-ზე გაყოფისას მიღებული ნაშთი, თუ (a^2 - 4)-ის 5-ზე გაყოფისას მიიღება 2-ის ტოლი ნაშთი?"
+                android:textColor="#F50202"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupFour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/answer41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <RadioButton
+                    android:id="@+id/answer42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+
+                <RadioButton
+                    android:id="@+id/answer43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+
+                <RadioButton
+                    android:id="@+id/answer44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/questionFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="იპოვეთ a-ს მნიშვნელობა, რომლისთვისაც ax + 4 = 5 - 3(x + 1) არ გააჩნია ამონახსნი."
+                android:textColor="#F70404"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupFive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/answer51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-3" />
+
+                <RadioButton
+                    android:id="@+id/answer52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-1" />
+
+                <RadioButton
+                    android:id="@+id/answer53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+
+                <RadioButton
+                    android:id="@+id/answer54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="#CE2013"
+                android:text="ქულის ნახვა"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
