@@ -55,16 +55,12 @@ class MathTestActivity : AppCompatActivity() {
 
                 }
 
-
             }
 
             if (isQuizFinished) {
                 scoreValue.text = "ქულა: 10/" + score.toString()
                 submitBtn.isClickable = false
             }
-
-
-
         }
 
     }
